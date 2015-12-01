@@ -3,41 +3,40 @@
 
 <link href="dist.css/bootstrap.css" rel='stylesheet'>
 <link href='site.css'rel='stylesheet'>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
 <script src="jquery"></script>
 
 <div>
-  <div class= "title">
+  <div class= "header">
     <h1>
        "Stories"
     </h1>
   </div>
 </div>
 
-<body>    
-    <div>
-        <div class="links">
-	       <p>
-                <div class='row'>
-                    <div class='col-md-4'>
+<body>
+    <body class="stories">    
+        <div>
+            <div class="links">
+	           <p>
+                    <div id='image'>
+                        <img src="http://maxcdn.thedesigninspiration.com/wp-content/uploads/2009/07/eastern-dragon/Dragon-II-l.jpg"alt="Dragon">
+                    </div>
                         <li><a href="Where%20People%20Don%E2%80%99t%20Look.html">"Where People Don't Look"</a>
                             <p> The shadow at the corner of your eye. </p>
                             <button id="like-btn">Like</button>
-                         </li>
+                        </li>
                         <br />
                         <li><a href="The_Word_You_Kept.html">"The Word You Kept"</a>
                             <p> The door that appears wherever you are. </p>
                             <button id="like-btn">Like</button>
                         </li>
-                    </div>
-                    <div class='col-md-8'>
-                        <img src="http://maxcdn.thedesigninspiration.com/wp-content/uploads/2009/07/eastern-dragon/Dragon-II-l.jpg"alt="Dragon">
-                    </div>
-                </div>
-            </p>
-                <script>
+                </p>
+                    <script>
                   $("#like-btn").on("click",function(){alert("Liked!")});
-                </script>
+                    </script>
+            </div>
         </div>
-    </div>
+    </body>
 </body>
 </html>
