@@ -5,6 +5,13 @@
 	color: #c0c0c0;
 }
 
+.header {
+	font-size: 20px;
+	font-family: "Comic Sans MS", cursive, sans-serif, text-center;
+	font-weight: bold;
+	color: #b22222;
+}
+
 .navbar-header {
 	background-color: #191970;
 	size: 20px;
@@ -18,9 +25,16 @@
 	width: 15%;
 }
 
+.booklist {
+	font-size: 16px;
+	background-color: #fffff0;
+	font-family: "Times New Roman";
+	padding: 5px;
+}
+
 .links {
 	font-size: 16px;
-	background-color: #f0f8ff;
+	background-color: #e6e6fa;
 	font-family: "Times New Roman";
 }
 
@@ -31,9 +45,30 @@
 
 .form {
 	background-color: #c0c0c0;
-	padding: 20px;
+	padding-top: 0px;
 }
-
-.image {
-	text-align: right;
+#image {
+	float: right;
+}
+#imageFB {
+	float: right;
+}
+.Name {
+	text-align: center;
+	font-size: 10px;
+	padding: 0;
+}
+.home {
+	background-image: url("http://dreamatico.com/data_images/dragon/dragon-4.jpg");
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-size: cover;
+}
+.stories {
+	background-image: url(http://4.bp.blogspot.com/_qTikF_Denbg/TA3KQNr8xVI/AAAAAAAAAvU/CIQVba9EIbE/s1600/WAves_1280x1024.jpg);
+    background-repeat: no-repeat;
+}
+.favourite-books {
+	background-image: url(http://webneel.com/sites/default/files/images/download/thumb/Aggressive%20fire.jpg);
+    background-size: stretch;
 }
